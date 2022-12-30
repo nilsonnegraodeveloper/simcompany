@@ -90,3 +90,17 @@ Abra o PgAdmin:<br>
 - JavaScript; 
 - Jquery - Plugins: DataTables, Mask e MaskMoney;
 
+# Sobre o teste<br>
+O diferencial está em produzir as funções de maneira que surpreenda o usuário, evitando novas etapas de desenvolvimento.<br>
+O prazo para entrega é de 3 dias ao receber essa mensagem.<br>
+A framework utilizada deverá ser Laravel e o front pode ser feito de maneira simples ou com algum template admin.<br>
+A entrega do material deverá ser enviado para o e-mail...<br>
+
+**Sistema de conta bancária**<br>
+- Construir um CRUD de cadastro para abertura de conta validando CPF e gerando número de conta automático
+- Funções de exibir saldo, depositar e retirar valores (dinheiro)
+- Relatório de transições ocorridas com seleção de período
+- Gerar um gráfico (escolher o melhor tipo) para exibir informações sobre a conta.
+- Criar utilizando framework Laravel e banco postgresql ou mysql.
+- Inserir códigos em plataforma GIT e enviar o link para download.
+- Utilizar o TDD para o desenvolvimento.
