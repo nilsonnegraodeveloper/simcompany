@@ -53,7 +53,7 @@ Usuário para logar:<br>
 **Email: teste@teste.com**<br>
 **Senha: 123456**
 
-### Acessar o BD do container via PgAdmin:
+## Acessar o BD do container via PgAdmin:
 Com o container rodando executar este comando dentro da pasta do projeto:<br>
 **docker ps (copiar o CONTAINER ID da imagem postgres:12.3-alpine)**
 
@@ -106,7 +106,7 @@ Abra o PgAdmin:<br>
 - JavaScript; 
 - Jquery - Plugins: DataTables, Mask e MaskMoney;
 
-# Sobre o teste<br>
+## Sobre o teste<br>
 O diferencial está em produzir as funções de maneira que surpreenda o usuário, evitando novas etapas de desenvolvimento.<br>
 O prazo para entrega é de 3 dias ao receber essa mensagem.<br>
 A framework utilizada deverá ser Laravel e o front pode ser feito de maneira simples ou com algum template admin.<br>
