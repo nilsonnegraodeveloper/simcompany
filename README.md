@@ -9,6 +9,22 @@ Copiar o .env.example como nosso .env principal:<br>
 Usar este comando para construir e executar os containers:<br>
 **docker-compose up --build -d**
 
+Com o container rodando executar este comando dentro da pasta do projeto:<br>
+**docker ps (copiar o CONTAINER ID da imagem postgres:12.3-alpine)**
+
+Depois executar este comando para pegar o IP:<br>
+**docker inspect CONTAINER_ID | grep IPAddress (substituir o "CONTAINER_ID" do comando pelo ID da imagem que foi copiado na etapa anterior)**
+
+Copie o IP (IPAddress):<br>
+
+Atualizar o arquivo .env desta forma:<br>
+DB_CONNECTION=pgsql<br>
+DB_HOST=IPAddress (foi copiado na etapa anterior)<br>
+DB_PORT=5432<br>
+DB_DATABASE=postgres<br>
+DB_USERNAME=postgres<br>
+DB_PASSWORD= (deixar em branco)<br>
+
 Dar permissão de escrita na pasta storage:<br>
 **chmod 777 -R storage**
 
