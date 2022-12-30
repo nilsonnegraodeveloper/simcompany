@@ -1,4 +1,4 @@
-# Instruções para rodar o Projeto
+## Instruções para rodar o Projeto
 
 Clonar o projeto:<br>
 **git clone https://github.com/nilsonnegraodeveloper/simcompany.git && cd simcompany**
